@@ -89,6 +89,7 @@ body {
     height: 75px;
     border-radius: 35px;
     color: rgb(9, 169, 243);
+    display: inline-block;
     font-size:50px;
 }
 
@@ -105,4 +106,19 @@ body {
     color: black;
     cursor: not-allowed;
     filter: grayscale(80%);
+}
+
+@media (min-width:700px){
+
+    .player{
+        margin-left: 70px;
+    }
+
+        
+    .p2{
+        width: 200px;
+        margin-right: 70px;
+        margin-left: 0px;
+    }
+     
 }
