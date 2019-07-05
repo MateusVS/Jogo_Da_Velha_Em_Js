@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="estrutura">
+        <div class="player">
+            <h2 id="p1">Jogador 1 = X</h2>
+            <br><hr><br>
+            <h2>Pontuação</h2>
+            <h2 id="pt1"></h2>
+        </div>
+        <div class="game">
+            <h1 class="titulo">Jogo da Velha</h1>
+            <div class="linha">
+                <button value="10" onclick="marcar(this)" class="casa" id="casa1"></button>
+                <button value="20" onclick="marcar(this)" class="casa" id="casa2"></button>
+                <button value="30" onclick="marcar(this)" class="casa" id="casa3"></button>
+            </div>
+            <div class="linha">
+                <button value="40" onclick="marcar(this)" class="casa" id="casa4"></button>
+                <button value="50" onclick="marcar(this)" class="casa "id="casa5"></button>
+                <button value="60" onclick="marcar(this)" class="casa "id="casa6"></button>
+            </div>
+            <div class="linha">
+                <button value="70" onclick="marcar(this)" class="casa" id="casa7"></button>
+                <button value="80" onclick="marcar(this)" class="casa" id="casa8"></button>
+                <button value="90" onclick="marcar(this)" class="casa" id="casa9"></button>
+            </div>
+        </div>  
+        <div class="player">
+            <h2 id="p2" class="p2">Jogador 2 = O</h2>
+            <br><hr><br>
+            <h2 class="p2">Pontuação</h2>
+            <h2 class="p2" id="pt2"></h2>
+        </div>
+    </div>
+    <div class="chao">
+            <button id="btn" class="btn">Iniciar Jogo</button>
+    </div>
+    <script src="js/act.js"></script>
+</body>
+
+</html>
